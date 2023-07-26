@@ -1,0 +1,271 @@
+<!DOCTYPE html> 
+<html lang ="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta charset="UTF-8">
+        <title>SOWMIYA</title>
+        <link rel="stylesheet"type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js"crossorigin="anonymous"></script>
+     </head>   
+     <body>
+        <div id="header">
+                    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+                    <img src="logo.jpg" width="20%">   
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Accomplishments</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#intern">Internship</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <b>Hello, This is...</b>
+                    <h1>Sowmiya Thirunavukkarasu</h1> <br>
+                    <h2>I'm a <span>Web Developer</span> </h2>
+                </div>
+        </div>
+        <!---------------------------------------About-->
+        <div id="about">
+            <h1 class="sub-title">ABOUT </h1>
+            <div class="row" >
+                <div class="about-col-1">
+                    <img src="pic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <p>Diligent computer science engineering student pursuing my degree at Psna College of Engineering and Technology. Good in technical skills such as HTML, CSS, JS, Java and C on which certifications are done. Highly skilled in communication, team work and problem solving. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                            <P class="tab-links active-link" onclick="opentab('skills')">Soft Skills</P>
+                            <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>1.&nbsp; Problem solving and Decision making</li>
+                                <li>2.&nbsp; Leadership and Team work</li>
+                                <li>3.&nbsp; Good at communication</li>
+                                <li>4.&nbsp; Time management </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="languages">
+                            <ul>
+                                <li>1.&nbsp;  Tamil</li>
+                                <li>2.&nbsp;  English</li>
+                                <li>3.&nbsp;  Hindi (Writing and reading)</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="education">
+                            <ul>
+                                <li><span>2020-2024</span><br>BE Computer Science and Engineering at Psna College of Engineering and Technology, Dindigul<br> CGPA : 8.86 </li>
+                                <li><span>2019-2020</span><br>St.Joseph's Girls' Higher Secondary School, Dindigul<br>86.3%</li>
+                                <li><span>2017-2018</span><br>St.Joseph's Girls' Higher Secondary School, Dindigul<br>95%</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Hobbies">
+                            <ul>
+                                <li>1.&nbsp;Singing</li>
+                                <li>2.&nbsp;Planting and Gardening</li>
+                                <li>3.&nbsp; Drawing</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+                <h1 class="sub-title" style="margin-top: 7%;">ACCOMPLISHMENTS</h1>
+                <div class="services-list">
+                    <div>
+                        
+                        <h2><i class="fa-solid fa-globe"></i>&nbsp;WEB DEVELOPMENT</h2>
+                        <p >Completed HTML, CSS, JS and PHP </p><br>
+                        <br><img src="web.jpg" > &emsp; <img src="html.jpg" >
+                       
+                    </div>
+                    <div>
+                        
+                        <h2><i class="fa-solid fa-code"></i>&nbsp;PROGRAMMING LANGUAGES</h2>
+                        <p>Know C , Java and the basics in Python that we have learned as a part of our curriculum</p>
+                       
+                    </div>
+                    <div>
+                        
+                        <h2><i class="fa-solid fa-database"></i>&nbsp;DATABASE MANAGEMENT</h2>
+                        <p>Learnt the concepts of oracle sql</p>
+                        <br><img src="sql.jpg">
+                       
+                    </div>
+                    <div>
+                        
+                        <h2><i class="fa-solid fa-chart-column"></i>&nbsp;DATA ANALYTICS</h2>
+                        <p>Done a Google Data Analytics certification on cousera </p>
+                        <br><img src="dataanalytics.jpg">
+                       
+                    </div>
+                    <div>
+                        
+                        <h2><i class="fa-solid fa-magnifying-glass-chart"></i>&nbsp;AI & ML</h2>
+                        <p>Learnt the basics to intermediate concepts in Artificial Intelligence and Machine Learning using Python. Learnt k-means algorithm, clustering, classification, numpy arrays, pandas and matplotlib.</p>
+                        <br><img src="aiml.jpg">
+                        
+                    </div>
+                    <div>
+                        <h2><i class="fa-solid fa-cloud"></i>&nbsp;ADDITIONAL CERTIFICATIONS</h2>
+                        <p>Having the basic knowledge in designing the app using android studio. <br>Done a course on raspberry pi and learnt chritmas tree light problem and guess the number game.<br> Done a certification on the basics of cloud computing <br> Learnt git commands, about github and its features </p>
+                        <br><img src="cloud.jpg"> &emsp;<img src="raspberry.png">
+                      
+                    </div>
+                </div>
+        </div>
+        <div id="project">
+            <h1 class="sub-title"> PROJECTS</h1>
+            <div class="projrow">
+            <center><h3 style="font-size: 35px;">ROWHEAV - An Online Home Design Website</h3></center>   
+            <p class="rowheav">Rowheav is a website for designing homes and also resolves the unemployability issue most particularly among the engineers. Building our dream house is an exciting one and each will have different ideas on the way of building and designing their house both interior and exterior. For this, we are providing a website by which one can choose attractive colors, wall carvings, wall prints etc for their house. It is designed using the front end and back end languages. </p> 
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="homepage.png">
+                    <div class="layer">
+                        <h3> HOME PAGE</h3>
+                        <p> The home page contains the name of the website, navigation bars and login/signup menus</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="signin.png">
+                    <div class="layer">
+                        <h3> LOGIN PAGE</h3>
+                        <p>The login page in which the user can enter their credentials and log on to their account where their previous preferences are saved</p>
+                       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="signup.png">
+                    <div class="layer">
+                        <h3>SIGNUP PAGE</h3>
+                        <p> The signup page is where the user who uses our website enter their mail id and password thereby creating an account in there</p>
+                       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="registerform.jpg">
+                    <div class="layer">
+                        <h3> REGISTRATION FORM</h3>
+                        <p>The form can be filled by the job seekers who wish to work as a part in our website </p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="about.png">
+                    <div class="layer">
+                        <h3> ABOUT PAGE</h3>
+                        <p>The about page contains the information about our organization and the goal of our website</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="service.png">
+                    <div class="layer" id="layerb">
+                        <h3>SERVICE PAGE</h3>
+                        <p> The service page has a variety of services that we provide such as interior decor ideas, color picker, wall carving and paintings. The user can also approach us for the blueprints and manpower </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <!------<a href="#" class="btn">See more</a>--->
+        </div>
+    </div> 
+    <div id="intern">
+        <h1 class="sub-title" style="margin-top: 7%;">INTERNSHIP</h1>
+        <div class="intern-list">
+            <div class="interna">
+                <h2 style="font-size: 30px;"><i class="fa-brands fa-java"></i>&nbsp;ADVANCED JAVA</h2><br>
+                <p style="font-size: 20px;">Done an intern on advanced java at SK Academy for a month</p><br>
+                <br><img src="javaintern.jpg" width="50%">
+            </div>
+            <div class="internb">   
+                <h2 style="font-size: 30px;"><i class="fa-brands fa-react"></i>&nbsp;FULLSTACK WEB DEVELOPMENT</h2><br>
+                <p style="font-size: 20px;">At present, doing an intern on web development using MERN </p><br>
+            </div>
+        </div>
+    </div>        
+    <!---------------"contact"--> 
+    <div id="contact">
+            <h1 class="sub-title"> CONTACT</h1>
+            <div class="row">
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Enter Email" required>
+                        <input type="mobile" name="Mobile" placeholder="Mobile" required>
+                        <textarea name="Message" rows="6 "placeholder="Enter Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form><br>
+                    <a href="https://drive.google.com/file/d/18-3H3oRhB0l5cqzx06al50hKlxA2uMGi/view" download class="btn btn2">Download Resume</a>      
+                </div>
+            </div>
+           
+        
+        <div class="copyright">
+            <p style="font-size: 20px;"><b>For any queries please contact &nbsp; : </b> </p><br>
+            <p>Sowmiya T</p><br><p> Email id : sowmitnsd@gmail.com</p><br>
+            <p>Phone : 7826053770</p>
+            <div class="contact-left">
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/dsow_al_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sowmiya-thirunavukkarasu-74581b236"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Sowmink"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>  
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");}
+            for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+     function openmenu(){
+               sidemenu.style.right="0";
+     }
+     function closemenu(){
+               sidemenu.style.right="-200px";
+     }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwDaQx_F0muaaCLOUouPdObkYIahGBboAA5G-av2Tq3-3wE_9sASAspCLgiym0E7KHY/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+      </body>
+</html>
